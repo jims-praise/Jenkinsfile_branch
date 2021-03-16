@@ -51,5 +51,3 @@ if [ $total_archivos -le 2 ]
 then
     rm -rf $HOME/.$backup_dir
 fi
-
-source ~/.bash_profile
