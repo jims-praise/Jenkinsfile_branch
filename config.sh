@@ -6,7 +6,7 @@ backup_dir=${bdir}_${date}
 bash_prompt="bash_prompt"
 bashrc="bashrc"
 bash_profile="bash_profile"
-bash_aliases"bash_aliases"
+bash_aliases="bash_aliases"
 mkdir $HOME/.${backup_dir}
 
 #Respaldo archivo bash_prompt
@@ -58,7 +58,6 @@ echo -e "\n# <<<Adding New Aliases<<<\n" >> $HOME/.$bash_aliases
 echo "cat ./.$bash_aliases  >> $HOME/.$bash_aliases"
 cat ./.$bash_aliases  >> $HOME/.$bash_aliases   
 echo -e "\n# >>>Adding New Aliases>>>\n" >> $HOME/.$bash_aliases
-
 
 
 # Borrado del respaldo en caso de no existir archivos a respaldar
