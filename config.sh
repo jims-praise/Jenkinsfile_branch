@@ -36,25 +36,25 @@ fi
 
 # Copiado de nuevos archivos con configuracion de color
 
-echo -e "\n# <<<Adding New Prompt Bash Colors<<<\n" >> $HOME/.$bash_prompt
+echo -e "# <<<Adding New Prompt Bash Colors<<<\n" >> $HOME/.$bash_prompt
 echo "cat ./.$bash_prompt >> $HOME/.$bash_prompt"
 cat ./.$bash_prompt >> $HOME/.$bash_prompt
 echo -e "\n# >>>Adding New Prompt Bash Colors>>>\n" >> $HOME/.$bash_prompt
 
 
-echo -e "\n# <<<Adding New Prompt Bash Colors<<<\n" >> $HOME/.$bashrc
+echo -e "# <<<Adding New Prompt Bash Colors<<<\n" >> $HOME/.$bashrc
 echo "cat ./.$bashrc  >> $HOME/.$bashrc"
 cat ./.$bashrc  >> $HOME/.$bashrc
 echo -e "\n# >>>Adding New Prompt Bash Colors>>>\n" >> $HOME/.$bashrc
 
 
-echo -e "\n# <<<Adding New Prompt Bash Colors<<<\n" >> $HOME/.$bash_profile
+echo -e "# <<<Adding New Prompt Bash Colors<<<\n" >> $HOME/.$bash_profile
 echo "cat ./.$bash_profile  >> $HOME/.$bash_profile"
 cat ./.$bash_profile  >> $HOME/.$bash_profile   
 echo -e "\n# >>>Adding New Prompt Bash Colors>>>\n" >> $HOME/.$bash_profile
 
 
-echo -e "\n# <<<Adding New Aliases<<<\n" >> $HOME/.$bash_aliases
+echo -e "# <<<Adding New Aliases<<<\n" >> $HOME/.$bash_aliases
 echo "cat ./.$bash_aliases  >> $HOME/.$bash_aliases"
 cat ./.$bash_aliases  >> $HOME/.$bash_aliases   
 echo -e "\n# >>>Adding New Aliases>>>\n" >> $HOME/.$bash_aliases
