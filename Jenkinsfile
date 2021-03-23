@@ -4,7 +4,7 @@ pipeline {
   
   stages {
     
-    stage("build){
+    stage("build"){
            setps{
              echo 'Command inside Build'
              echo 'Building the application'
@@ -12,7 +12,7 @@ pipeline {
            }
      }
            
-    stage("test){
+    stage("test"){
            setps{
               echo 'Testing the application'
                }
