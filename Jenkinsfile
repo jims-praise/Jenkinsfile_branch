@@ -20,7 +20,8 @@ pipeline {
            
    stage("deploy"){
           steps{
-            echo 'Deploying the application'      
+            echo 'Deploying the application'
+            echo 'Steps to add github api pull request'
 
           }  
     }   
