@@ -1,5 +1,5 @@
 #!/bin/bash
-# Directorio Backup test- cuarto intento
+# Directorio Backup test- seems ok working with jenkins
 bdir="bkp_bash_configuration"
 date=$(date "+%Y-%m-%d_%T")
 backup_dir=${bdir}_${date}
