@@ -1,5 +1,5 @@
 #!/bin/bash
-# Directorio Backup test- segundo intento
+# Directorio Backup test- tercer intento
 bdir="bkp_bash_configuration"
 date=$(date "+%Y-%m-%d_%T")
 backup_dir=${bdir}_${date}
