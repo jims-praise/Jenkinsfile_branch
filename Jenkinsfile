@@ -6,7 +6,6 @@ pipeline {
     
     stage("build"){
            steps{
-             echo 'Command inside Build'
              echo 'Building the application'
              
            }
@@ -21,11 +20,8 @@ pipeline {
    stage("deploy"){
           steps{
             echo 'Deploying the application'
-            echo 'Steps to add github api pull request'
-
+            
           }  
     }   
- 
  }
-   
- }
+}
