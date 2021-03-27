@@ -1,5 +1,5 @@
 #!/bin/bash
-# Commit to trigger a Jenkins pipeline
+# Commit to trigger a Jenkins asdf
 bdir="bkp_bash_configuration"
 date=$(date "+%Y-%m-%d_%T")
 backup_dir=${bdir}_${date}
