@@ -1,5 +1,5 @@
 #!/bin/bash
-# Commit to trigger a Jenkins bbbbb
+# Commit to trigger a Jenkins jiojli
 bdir="bkp_bash_configuration"
 date=$(date "+%Y-%m-%d_%T")
 backup_dir=${bdir}_${date}
