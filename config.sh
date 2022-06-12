@@ -1,5 +1,5 @@
 #!/bin/bash
-# Directorio Backup
+# Commit to trigger a Jenkins Pipeline
 bdir="bkp_bash_configuration"
 date=$(date "+%Y-%m-%d_%T")
 backup_dir=${bdir}_${date}
@@ -35,6 +35,7 @@ fi
 
 
 # Copiado de nuevos archivos con configuracion de color
+
 
 echo -e "# <<<Adding New Prompt Bash Colors<<<\n" >> $HOME/.$bash_prompt
 echo "cat ./.$bash_prompt >> $HOME/.$bash_prompt"
